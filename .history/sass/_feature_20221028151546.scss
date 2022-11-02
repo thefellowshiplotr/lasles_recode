@@ -1,0 +1,23 @@
+.feature {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-heading {
+    width: 383px;
+    color: $heading-color;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50 / 35);
+    margin-bottom: 20px;
+  }
+  &-desc {
+    width: 427px;
+  }
+  &-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

@@ -1,0 +1,47 @@
+.hero {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 0 40px;
+    align-items: center;
+  }
+  &-content {
+    width: 100%;
+    max-width: 555px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+  }
+  &-img {
+    position: absolute;
+    top: 50%;
+    transform: translate(40px, -50%);
+    right: 0;
+  }
+  &-heading {
+    color: $heading-color;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: calc(70 / 50);
+    margin-bottom: 20px;
+  }
+  &-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    margin-bottom: 50px;
+  }
+  &-laslesvpn {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: calc(70 / 50);
+  }
+  &-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(25 / 16);
+  }
+}

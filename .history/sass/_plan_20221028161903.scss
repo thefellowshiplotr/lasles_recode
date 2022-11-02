@@ -1,0 +1,47 @@
+.plan {
+  padding-bottom: 150px;
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  &-header {
+    margin-top: 80px;
+  }
+  &-heading {
+    color: $heading-color;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50 / 35);
+    margin-bottom: 20px;
+  }
+  &-desc {
+    width: 555px;
+    font-weight: 40;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+  }
+  &-list {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 50px;
+    margin-bottom: 150px;
+  }
+  &-item {
+    background-color: #fff;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    padding: 79px 92px;
+  }
+  &-price {
+    margin-top: 130px;
+    margin-bottom: 30px;
+  }
+  &-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

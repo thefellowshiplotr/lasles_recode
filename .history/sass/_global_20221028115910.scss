@@ -1,0 +1,31 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  line-height: 1;
+  font-family: $font;
+  color: $text-color;
+  font-weight: 400;
+}
+
+.button {
+  &-primary {
+    position: relative;
+    transform: translateY(50%);
+    top: 50%;
+    color: #fff;
+    padding: 17.5px 77.5px;
+    border: none;
+    background-color: $primary-color;
+    border: 1px solid #000000;
+    border-radius: 10px;
+  }
+}

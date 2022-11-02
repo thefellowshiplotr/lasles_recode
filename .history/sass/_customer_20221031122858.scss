@@ -1,0 +1,21 @@
+.customer {
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  &-heading {
+    color: $heading-color;
+    width: 447.81px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50 / 35);
+    text-align: center;
+  }
+  &-desc {
+    color: $text-color;
+    width: 100%;
+    max-width: 555px;
+  }
+}

@@ -1,0 +1,53 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  line-height: 1;
+  font-family: $font;
+  color: $text-color;
+  font-weight: 400;
+}
+
+.button {
+  &-primary {
+    color: #fff;
+    padding: 17px 77px;
+    border: none;
+    background-color: $primary-color;
+    border: 1px solid;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+  &-rounded {
+    color: $primary-color;
+    background-color: #fff;
+    border: 2px solid $primary-color;
+    border-radius: 100rem;
+    padding: 13px 62px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(18.96 / 16);
+  }
+  &-full {
+    color: #fff;
+    background-color: $primary-color;
+    padding: 13px 62px;
+    border: none;
+    border-radius: 100rem;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(18.96 / 16);
+    box-shadow: 0 8px 41px -6px $primary-color;
+  }
+}
+.background-plan {
+  background-color: $gray-color;
+}

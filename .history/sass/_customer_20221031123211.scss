@@ -1,0 +1,26 @@
+.customer {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  &-header {
+    margin: 0 292px 50px;
+    text-align: center;
+  }
+  &-heading {
+    color: $heading-color;
+    width: 447.81px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50 / 35);
+    text-align: center;
+    margin: 0 54px 20px;
+  }
+  &-desc {
+    color: $text-color;
+    width: 555px;
+  }
+}

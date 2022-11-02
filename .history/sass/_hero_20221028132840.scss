@@ -1,0 +1,9 @@
+.hero {
+  &-container {
+    max-width: 555px;
+    width: 100%;
+  }
+  &-img {
+    transform: translate(80%, -30%);
+  }
+}

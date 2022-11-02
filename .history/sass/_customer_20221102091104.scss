@@ -1,0 +1,135 @@
+.customer {
+  padding-bottom: 65px;
+  // &-container {
+  //   // display: flex;
+  //   // align-items: center;
+  //   // justify-content: center;
+  //   // text-align: center;
+  //   // flex-direction: column;
+  //   // margin-bottom: 60px;
+  // }
+  &-header {
+    margin: 0 292px 0;
+    text-align: center;
+  }
+  &-heading {
+    color: $heading-color;
+    max-width: 447.81px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50 / 35);
+    text-align: center;
+    margin: 0 54px 20px;
+    // margin-left: auto;
+    // margin-right: auto;
+  }
+  // &-desc {
+  //   color: $text-color;
+  //   width: 555px;
+  // }
+  // &-list {
+  //   margin-top: 60px;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   gap: 0 50px;
+  //   padding-bottom: 65px;
+  // }
+  // &-item {
+  //   display: flex;
+  //   flex-flow: column wrap;
+  //   width: 100%;
+  //   max-width: 400px;
+  //   background: #ffffff;
+  //   border: 2px solid #dddddd;
+  //   border-radius: 10px;
+  //   padding: 20px 30px;
+  // }
+  // &-item:nth-child(1) {
+  //   border: 2px solid #f75757;
+  // }
+  // &-top {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-around;
+  //   gap: 0 21px;
+  // }
+  // &-comment {
+  //   margin-top: 30px;
+  //   width: 300px;
+  //   color: $heading-color;
+  //   font-weight: 400;
+  //   font-size: 16px;
+  //   line-height: calc(30 / 16);
+  // }
+  // &-rating {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   gap: 0 5px;
+  // }
+  // &-name {
+  //   color: $heading-color;
+  //   font-weight: 500;
+  //   font-size: 18px;
+  //   line-height: calc(30 / 18);
+  // }
+  // &-address {
+  //   font-weight: 400;
+  //   font-size: 14px;
+  //   line-height: calc(30 / 14);
+  // }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 50px;
+    margin-top: 60px;
+    align-items: center;
+  }
+  &-item {
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px 30px;
+  }
+  &-top {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-info {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+  }
+  &-avatar {
+    width: 50px;
+    height: 50px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 100rem;
+    }
+  }
+  &-name {
+    color: $heading-color;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+  }
+  &-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(30 / 14);
+  }
+  &-name,
+  &-address {
+    line-height: 1;
+  }
+  &-rating {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+  }
+}

@@ -1,0 +1,13 @@
+.feature {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-heading {
+    width: 383px;
+  }
+  &-desc {
+    width: 427px;
+  }
+}

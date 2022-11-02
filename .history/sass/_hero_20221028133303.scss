@@ -1,0 +1,10 @@
+.hero {
+  &-container {
+  }
+  &-img {
+    position: absolute;
+    top: 50%;
+    transform: translate(40px, -50%);
+    right: 0;
+  }
+}

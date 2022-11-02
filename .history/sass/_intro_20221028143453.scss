@@ -1,0 +1,10 @@
+.intro {
+  padding: 57px 0;
+  &-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 100px;
+  }
+}

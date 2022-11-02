@@ -1,0 +1,11 @@
+.subscribe {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 58px 70px;
+    border-radius: 10px;
+    box-shadow: 0 30px 87px rgb(13 16 37 / 20%);
+  }
+}

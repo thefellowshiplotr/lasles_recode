@@ -1,0 +1,21 @@
+.plan {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  &-heading {
+    color: $heading-color;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50 / 35);
+    margin-bottom: 20px;
+  }
+  &-desc {
+    width: 555px;
+    font-weight: 40;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+  }
+}

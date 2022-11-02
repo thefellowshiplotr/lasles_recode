@@ -1,0 +1,14 @@
+.plan {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  &-heading {
+    color: $heading-color;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50 / 35);
+  }
+}

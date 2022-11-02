@@ -1,0 +1,32 @@
+.subscribe {
+  padding-bottom: 65px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 58px 70px;
+    box-shadow: 0 30px 87px rgb(13 16 37 / 20%);
+    position: absolute;
+  }
+  &-content {
+    max-width: 370px;
+  }
+  &-heading {
+    color: $heading-color;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(45 / 35);
+    margin-bottom: 20px;
+  }
+  &-desc {
+    color: $text-color;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+  }
+  .button {
+    text-transform: capitalize;
+  }
+}

@@ -1,0 +1,26 @@
+.network {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  &-heading {
+    color: $heading-color;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50 / 35);
+    margin: 0 87.5px 20px;
+    text-align: center;
+    width: 380px;
+  }
+  &-desc {
+    color: $text-color;
+    width: 555px;
+    margin-bottom: 150px;
+  }
+  .partner-container {
+    display: flex;
+  }
+}

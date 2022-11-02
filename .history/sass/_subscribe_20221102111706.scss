@@ -1,0 +1,10 @@
+.subscribe {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 58px 70px;
+    border-radius: 10px;
+  }
+}

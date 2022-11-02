@@ -1,0 +1,33 @@
+.feature {
+  &-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &-content {
+    margin-top: 90px;
+  }
+  &-heading {
+    width: 383px;
+    color: $heading-color;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: calc(50 / 35);
+    margin-bottom: 20px;
+  }
+  &-desc {
+    width: 427px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    margin-bottom: 20px;
+  }
+  &-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0 10px;
+    font-size: 14px;
+    margin-bottom: 21px;
+  }
+}

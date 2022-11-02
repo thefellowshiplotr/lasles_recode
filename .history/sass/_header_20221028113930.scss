@@ -1,0 +1,18 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-auth {
+    display: flex;
+    align-items: center;
+  }
+  &-signin {
+    font-weight: 500;
+    font-size: 16px;
+    color: $heading-color;
+  }
+}

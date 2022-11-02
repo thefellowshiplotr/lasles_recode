@@ -1,0 +1,10 @@
+.intro {
+  padding: 57px 0;
+  &-container {
+    background: #ffffff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 0 50px;
+  }
+}

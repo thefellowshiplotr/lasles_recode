@@ -1,0 +1,29 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-auth {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+  }
+  &-signin {
+    color: $heading-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(18.96 / 16);
+  }
+  &-signup {
+    color: $secondary-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(18.96 / 16);
+    padding: 13px 45px;
+    border: 1px solid #f53855;
+    border-radius: 50px;
+  }
+}
