@@ -243,7 +243,7 @@ body {
 }
 
 .feature {
-  padding-bottom: 126px;
+  padding-bottom: 170px;
 }
 .feature-container {
   display: flex;
@@ -386,7 +386,7 @@ body {
 }
 
 .customer {
-  padding-bottom: 135px;
+  padding-bottom: 170px;
 }
 .customer-header {
   margin: 0 292px 0;
@@ -528,7 +528,7 @@ body {
   box-shadow: 0 30px 87px rgba(13, 16, 37, 0.2);
   position: absolute;
   width: 1140px;
-  transform: translateY(-20%);
+  transform: translateY(-42%);
 }
 .subscribe-content {
   max-width: 370px;
